@@ -4,7 +4,7 @@ import matplotlib
 import matplotlib.pyplot as plt 
 
 
-mT=1
+mT=14.536
 G=6.67*10**(-11)
 AU=1
 GmS=4*math.pi**2
@@ -33,7 +33,7 @@ class Planeta:
 		self.vy=self.vy+ay*dt
 		self.E=0.5*mT*((self.vx**2)+(self.vy**2))-GmS*mT/self.r
 
-p1=Planeta(1.,0.,0.,np.pi)
+p1=Planeta(4.,0.,0.,np.pi)
 
 
 
