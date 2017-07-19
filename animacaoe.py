@@ -31,7 +31,7 @@ g=9.81
 L=0.1
 rhob=8000.0
 k=40.0
-rholiq=1250
+rholiq=1000
 rhorf=2
 m=rhob*L**3
 xo=0.50
@@ -109,7 +109,7 @@ anim= animation.FuncAnimation(fig, animate, init_func= init, frames= t.size,
 interval= 20, blit= True, repeat= False)
 
 
-anim.save('emp.mp4', fps=30, extra_args=['-vcodec', 'libx264'])
+anim.save('emp1.mp4', fps=30, extra_args=['-vcodec', 'libx264'])
 
 
 plt.show()
